@@ -1,0 +1,116 @@
+/* Container for the whole app */
+.return-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #333;
+}
+
+/* Input Area Styles */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#button-sendData {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#button-sendData:hover {
+    background-color: #218838;
+}
+
+/* Application List Styles */
+.application-container h1 {
+    text-align: center;
+    color: #444;
+}
+
+/* Individual Application Cards */
+.application-container > div {
+    background: white;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.application-container > div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.application-container h3 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+}
+
+.application-container p {
+    margin: 0 0 10px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+#deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#deleteButton:hover {
+    background-color: #c82333;
+}
+
+.updateStatus {
+     margin-left: 0px;
+ 
+
+}
+
+#changestatus-button {
+    background-color: #2a68ca;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+#changestatus-button:hover {
+    background-color: #1d1b7d;
+}
+
+
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}

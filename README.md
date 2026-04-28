@@ -2,6 +2,8 @@
 
 ## Nothing too fancy does what it says it does.
 
+![DashBoard Simulation](Assets/Dashboard.gif)
+
 
 ##  Tech Stack
 *   **Frontend:** React

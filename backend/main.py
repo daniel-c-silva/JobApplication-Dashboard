@@ -9,10 +9,10 @@ CORS(app) # * this is used so the frontend can acess the backend.
 
 conn = psycopg2.connect( # * connect to the database
     host="localhost",
-    port="5433",
+    port="yourport",
     database="postgres",
     user="postgres",
-    password="1206" 
+    password="useyourown" 
 )
 
 cursor = conn.cursor() # * define our cursor
@@ -40,10 +40,10 @@ def getDB():
     try: 
         conn = psycopg2.connect(
             host="localhost",
-            port="5433",
+            port="yourport",
             database="postgres",
             user="postgres",
-            password="1206"
+            password="yourpassword"
         )
         return conn, conn.cursor()
     except Exception as error:
